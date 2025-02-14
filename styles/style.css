@@ -59,6 +59,7 @@ ol {
   grid-template-columns: 711px 399px;
   grid-template-areas: "result content__details";
   column-gap: 30px;
+  margin: auto;
 }
 
 .content__details {
