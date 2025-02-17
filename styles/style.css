@@ -86,13 +86,15 @@ ol {
 
 .result {
   width: 711px;
+  display: flex;
+  flex-direction: column;
   gap: 16px;
   grid-area: result;
 }
 
 .result__video {
-  inline-size: 100%;
-  block-size: 100%;
+  inline-size: 711px;
+  block-size: 386px;
   object-fit: cover;
   object-position: center;
 }
