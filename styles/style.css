@@ -19,7 +19,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 h1,
@@ -125,7 +124,6 @@ ol {
   flex-direction: column;
   align-items: baseline;
   gap: 25px;
-  padding-bottom: 30px; /* Добавил отстпут внизу карточки */
 }
 
 .content__list-container {
@@ -177,7 +175,7 @@ ol {
   display: block;
   margin: 2px;
   color: #fff;
-} 
+}
 
 .content__card-link_current {
   background: #545050;
@@ -250,7 +248,7 @@ ol {
   width: 225px;
   height: 27px;
   background-color: transparent;
-  color: #FFFFFF;   /* чисто белый цвет, взятый из макета */
+  color: #ffffff; /* чисто белый цвет, взятый из макета */
   display: flex;
   align-items: center;
   border-inline-start: 1px solid transparent;
@@ -350,4 +348,5 @@ ol {
 
 .more-button {
   inline-size: 100%;
+  margin-top: 30px; /*Задал отступ Показать еще, в самом конце списка отступа нет*/
 } /*Кнопки*/
