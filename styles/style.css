@@ -144,6 +144,7 @@ ol {
   gap: 6px;
   align-items: start;
   overflow: hidden;
+  width: 195px;
 }
 
 .content__video-card-title {
@@ -153,14 +154,13 @@ ol {
   line-height: 30px;
   text-transform: uppercase;
   text-overflow: ellipsis;
-  overflow: hidden;
   white-space: nowrap;
+  overflow: hidden;
   line-clamp: 4;
 }
 
 .content__video-card-description {
   font-weight: 400;
-  width: 195px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
